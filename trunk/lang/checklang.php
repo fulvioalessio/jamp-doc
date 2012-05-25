@@ -26,6 +26,7 @@ foreach($objall as $obj)
 	$obj = str_replace(".obj.php", "", $obj);
 	$objprop = $system->newObj($obj, $obj);
 	$file = "$dir/$obj.property.php";
+	if (!file_exists($file)) die("Non trovato: $file");
 	require_once($file);
 	$arrProperty = $objprop->getProperty();
 	foreach($arrProperty as $k => $proparray)

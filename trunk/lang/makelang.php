@@ -9,7 +9,7 @@
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
 
-require_once("./../../release/jamp/class/system.class.php");
+require_once("./../../jamp/class/system.class.php");
 if(!isset($_GET["lang"])) die('Specificare la lingua da creare. Es: makelang.php?lang=IT');
 $system = new ClsSystem(true);
 $objall = $system->allObj();
@@ -31,9 +31,9 @@ foreach($objall as $obj)
 	fwrite($handle,"\n".'/**');
 	fwrite($handle,"\n".'* Properietà '.strtoupper($obj).'');
 	fwrite($handle,"\n".'* @author	Alyx-Software Innovation <info@alyx.it>');
-	fwrite($handle,"\n".'* @version	0.4.0');
+	fwrite($handle,"\n".'* @version	'.$system->version);
 	fwrite($handle,"\n".'* @package	Develop');
-	fwrite($handle,"\n".'* @copyright Alyx-Software Innovation 2008');
+	fwrite($handle,"\n".'* @copyright Alyx-Software Innovation '.date("Y"));
 	fwrite($handle,"\n".'* @license GNU Public License');
 	fwrite($handle,"\n".'* JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/');
 	fwrite($handle,"\n".'*/');

@@ -3,9 +3,9 @@
 /**
 * Properietà DSNAV
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -44,9 +44,11 @@ $propertyHELP["label"]                 = "Etichetta dell'oggetto.";
 $propertyHELP["maxlength"]             = "Numero massimo di caratteri accettati.";
 $propertyHELP["size"]                  = "Dimensione dell'oggetto.";
 $propertyHELP["dssearch"]              = "Sintassi da usare per la ricerca es: `cognome` LIKE '\$\$VALUE\$\$%'";
+$propertyHELP["dsfullsearch"]          = "Sintassi sql da usare per la ricerca su tutti i campi es: `\$\$ITEM\$\$` LIKE '\$\$VALUE\$\$'";
 $propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
 $propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
 $propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto.";
 $propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
+$propertyHELP["objtype"]               = "Nome dell'oggetto da inserire.";
 $propertyHELP["searchonkeyup"]         = "Esegue la ricerca durante la digitazione.|true,false";
 ?>

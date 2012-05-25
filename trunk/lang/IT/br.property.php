@@ -3,9 +3,9 @@
 /**
 * Properietà BR
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */

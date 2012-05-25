@@ -3,9 +3,9 @@
 /**
 * Properietà SMS
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -31,5 +31,5 @@ $propertyHELP["title"]                 = "Informazioni aggiuntive visualizzate a
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
 $propertyHELP["java"]                  = "Nome dei file javascript usati dall'oggetto.";
 $propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto.";
-$propertyHELP["lbOAdC"]          		= "label valore di default Mittente:";
+$propertyHELP["lbOAdC"]                = "label valore di default Mittente:";
 ?>
