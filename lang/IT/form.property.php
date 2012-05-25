@@ -3,9 +3,9 @@
 /**
 * Properietà FORM
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -36,5 +36,5 @@ $propertyHELP["target"]                = "Destinazione degli URL da aprire.";
 $propertyHELP["accept-charset"]        = "Specifica il set dei caratteri.";
 $propertyHELP["onreset"]               = "Codice associato all'evento onreset.";
 $propertyHELP["onsubmit"]              = "Codice associato all'evento onsubmit.";
-$propertyHELP["name"]              		= "Nome dell'oggetto.";
+$propertyHELP["name"]                  = "Nome dell'oggetto.";
 ?>

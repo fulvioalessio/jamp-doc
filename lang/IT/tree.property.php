@@ -3,9 +3,9 @@
 /**
 * Properietà TREE
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -53,4 +53,5 @@ $propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto."
 $propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
 $propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
 $propertyHELP["nav"]                   = "Consente di spostare la posizione del record corrente alla selezione del ramo.|true,false";
+$propertyHELP["objtype"]               = "Nome dell'oggetto da inserire.";
 ?>

@@ -1,11 +1,11 @@
 
 <?php
 /**
-* Properietà HN(per implementare i tagb H1, H2, H3, H4, H5, H6)
+* Properietà HN
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -29,6 +29,6 @@ $propertyHELP["dir"]                   = "Direzione del testo:\n- LTR da sinistr
 $propertyHELP["template"]              = "Nome del template utilizzato dall'oggetto, se non specificato viene utilizzato quello di sistema.";
 $propertyHELP["title"]                 = "Informazioni aggiuntive visualizzate al passaggio del mouse sull'oggetto istanziato.";
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
+$propertyHELP["type"]                  = "Tipo di tag|h1,h2,h3,h4,h5,h6";
 $propertyHELP["value"]                 = "Testo o html da inserire all'interno del tag.";
-$propertyHELP["type"]                 	= "Tipo di tag|h1,h2,h3,h4,h5,h6";
 ?>

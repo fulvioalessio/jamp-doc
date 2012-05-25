@@ -3,9 +3,9 @@
 /**
 * Properietà IMAGE
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -64,4 +64,5 @@ $propertyHELP["size"]                  = "Dimensione dell'oggetto.";
 $propertyHELP["dimension"]             = "Dimensione dell'immagine da salvare, utilizzare la ',' per salvare più formati(es. 100x200,400x100) .";
 $propertyHELP["forcename"]             = "Nome da assegnare al file uplodato.";
 $propertyHELP["createdir"]             = "Se la directory di upload non esiste la crea.";
+$propertyHELP["backgroundcolor"]       = "Colore di sfondo.";
 ?>

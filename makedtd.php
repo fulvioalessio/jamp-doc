@@ -4,8 +4,7 @@ $system = new ClsSystem(true);
 $objall = $system->allObj();
 unset($objall[0]);
 unset($objall[1]);
-$dtd = "./../jamp/jamp.dtd";
-if(file_exists($dtd)) unlink($dtd);
+$dtd = "./jamp.dtd";
 $handle = fopen($dtd, "w");
 fwrite($handle,'<?xml version="1.0" encoding="UTF-8"?>'."\n");
 fwrite($handle,"<!ELEMENT jamp (page)>\n");
@@ -32,7 +31,7 @@ foreach($objall as $obj)
 			}else fwrite($handle,"<!ELEMENT $obj (#PCDATA)>\n");
 		}
 		fwrite($handle,"<!ATTLIST $obj\n");
-		require("./../develop/lang/IT/$obj.property.php");
+		require("./lang/IT/$obj.property.php");
 		foreach($objprop->getProperty() as $k => $default)
 		{
 			if(isset($propertyHELP[$k]))

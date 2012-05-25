@@ -3,9 +3,9 @@
 /**
 * Properietà DSSELECTURL
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -28,17 +28,16 @@ $propertyHELP["lang"]                  = "Specifica il codice della lingua utili
 $propertyHELP["dir"]                   = "Direzione del testo:\n- LTR da sinistra a destra(default).\n- RTL da destra a sinistra. ";
 $propertyHELP["template"]              = "Nome del template utilizzato dall'oggetto, se non specificato viene utilizzato quello di sistema.";
 $propertyHELP["title"]                 = "Informazioni aggiuntive visualizzate al passaggio del mouse sull'oggetto istanziato.";
+$propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
+$propertyHELP["size"]                  = "Dimensione dell'oggetto.";
 $propertyHELP["name"]                  = "Nome dell'oggetto.";
-$propertyHELP["value"]                 = "Valore dell'oggetto.";
 $propertyHELP["minlength"]             = "Cosente di specificare la lunghezza minima del testo.";
 $propertyHELP["blur"]                  = "Consente di validare il testo digitato durante l'evento onblur.";
-$propertyHELP["size"]                  = "Dimensione dell'oggetto.";
 $propertyHELP["tabindex"]              = "Indice di tabulazione.";
 $propertyHELP["onfocus"]               = "Codice associato all'evento onfocus.";
 $propertyHELP["onselect"]              = "Codice associato all'evento onselect.";
 $propertyHELP["onblur"]                = "Codice associato all'evento onblur.";
 $propertyHELP["onchange"]              = "Codice associato all'evento onchange.";
-$propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
 $propertyHELP["dsitemkeylist"]         = "Nome del campo chiave usato per popolare la select.";
 $propertyHELP["nav"]                   = "Consente di utilizzare la select come navigatore.\nSposta il record corrente dopo aver selezionato il valore.|true,false";
 $propertyHELP["memory"]                = "Usata invieme a nav per ridordare la posizione della select dopo il ripopolamento dei dati.|true,false";
@@ -48,7 +47,6 @@ $propertyHELP["dsobjlist"]             = "ID del datasource usato per popolare l
 $propertyHELP["directory"]             = "Percoso delle immagini da visualizzare nella select.";
 $propertyHELP["allselect"]             = "Valore usato per intendere la selezione di tutti i valori contenuti nella select.";
 $propertyHELP["valuezero"]             = "Etichetta per indicare nessuna selezione.|true,false";
-$propertyHELP["label"]                 = "Etichetta dell'oggetto.";
 $propertyHELP["labelalign"]            = "Allineamento etichetta rispetto all'oggetto|left,right";
 $propertyHELP["labelwidth"]            = "Larghezza dell'etichetta.";
 $propertyHELP["labelstyle"]            = "Stile associato all'etichetta.";
@@ -67,6 +65,8 @@ $propertyHELP["format"]                = "Style di formattazione.";
 $propertyHELP["target"]                = "Destinazione degli URL da aprire.";
 $propertyHELP["action"]                = "Path del file da usare con link";
 $propertyHELP["actionparam"]           = "Nome del parametro da usare nel link";
-$propertyHELP["align"]                	= "Style di formattazione.";
+$propertyHELP["value"]                 = "Valore dell'oggetto.";
+$propertyHELP["align"]                 = "Style di formattazione.";
 $propertyHELP["defaultvalue"]          = "Valore di default.";
+$propertyHELP["label"]                 = "Etichetta dell'oggetto.";
 ?>

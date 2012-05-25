@@ -3,9 +3,9 @@
 /**
 * Properietà DS
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -15,6 +15,7 @@ $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
 $propertyHELP["debug"]                 = "Attiva il debug dell'oggetto.|true,false";
 $propertyHELP["out"]                   = "Formato di rilascio dati|json,xml.";
 $propertyHELP["focusnew"]              = "ID del primo campo su cui posizionari durante l'inserimento.\nE' possibile specificare un campo variabile di posizione.\nPer esempio è possibile posizionarsi su un nuovo campo della tabella scrivendo: 'gridds_1_\$' in cui '\$' è il tag di posizione e '1' il numero della colonna.";
+$propertyHELP["focustabnew"]           = "Id del tabs e tab da selezionare durante l'inserimento.\nEs. tabs1.tab1";
 $propertyHELP["dshost"]                = "Nome dell'host a cui ci si connette.";
 $propertyHELP["dsport"]                = "Numero della porta dell'host.";
 $propertyHELP["dsuser"]                = "Nome utente per la connessione all'host.";
@@ -26,8 +27,10 @@ $propertyHELP["xml"]                   = "Codice xml da restituire come dati.";
 $propertyHELP["encpwd"]                = "Codifica della password utilizzata per il modulo di login.|blank,md5";
 $propertyHELP["printxml"]              = "Restituisce l'xml dei dati.|true,false";
 $propertyHELP["loadall"]               = "Carica i dati al primo caricamento della pagina html.|true,false";
+$propertyHELP["load"]                  = "Stabilsce se il datasource puo' restituire dati|true,false";
 $propertyHELP["readonly"]              = "Oggetto in sola lettura.|true,false";
 $propertyHELP["confirm"]               = "Visualizza il messaggio di conferma per il salvataggio per la modalità table e row.|true,false";
+$propertyHELP["objtype"]               = "Nome dell'oggetto da inserire.";
 $propertyHELP["selecteditems"]         = "Campi da selezionare nella query  (Usa come separatore la virgola es: item1,item2).";
 $propertyHELP["dsdefault"]             = "Nome dello schema selezionato di default.";
 $propertyHELP["dstable"]               = "Nome della tabella/e utilizzata/e (Usa come separatore la virgola es: tab1,tab2).";
@@ -39,6 +42,7 @@ $propertyHELP["join"]                  = "Nome della tabella collegata.";
 $propertyHELP["joinsave"]              = "Nome della tabella in cui salvare i dati ottenuti da un join.\nSe impostato a 'join' salverà i dati nella tabella specificata nel campo join.";
 $propertyHELP["jointype"]              = "Tipo di collegamento.";
 $propertyHELP["joinrule"]              = "Legame tra le tabelle.";
+$propertyHELP["dslock"]                = "Nome del campo da utilizzare per riconoscere la modifica della riga da parte di un altro utente.";
 $propertyHELP["dsrefresh"]             = "Id dei datasource in cui eseguire il refresh (Usa come separatore la virgola).";
 $propertyHELP["dsreferences"]          = "Id dei datasource con cui vi è un legame (Chiavi esterne - Usa come separatore la virgola).";
 $propertyHELP["referencestable"]       = "Da utilizzare in caso di riferimenti multipli.\nConsente di specificare il nome delle tabelle a cui si fa riferimento (USa come separatore la virgola).";
@@ -56,6 +60,7 @@ $propertyHELP["dsextraquery"]          = "Codice da eseguire con la query di sel
 $propertyHELP["dslimit"]               = "Limita il risultato della query.";
 $propertyHELP["action"]                = "Pagina da richiamare per il caricamento dei dati.";
 $propertyHELP["fetch"]                 = "Formato dei dati restituiti.|object,row,assoc,array";
+$propertyHELP["ghostdata"]             = "Abilita/Disabilita messaggio di avvenuto salvataggio|true,false.";
 $propertyHELP["sslmode"]               = "Modalità SSL.|disable,allow,prefer,require";
 $propertyHELP["dsparentkey"]           = "Campo che contiene il valore della chiave del padre.";
 $propertyHELP["dsname"]                = "Nome del campo nodo.";
@@ -79,8 +84,6 @@ $propertyHELP["gateway"]               = "Imposta il Gataway da utilizzare.";
 $propertyHELP["carriergateways"]       = "Imposta il carrier da utilizzare.";
 $propertyHELP["answerrecipients"]      = "Indirizzo per la risposta,";
 $propertyHELP["format"]                = "Style di formattazione.";
-$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
-$propertyHELP["load"]      				= "Stabilsce se il datasource puo' restituire dati|true,false";
-$propertyHELP["ghostdata"]             = "Abilita/Disabilita messaggio di avvenuto salvataggio|true,false.";
 $propertyHELP["unload"]                = "Abilita/Disabilita richiesta di salvataggio che appare durante unload della pagina|true,false.";
+$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
 ?>

@@ -1,7 +1,7 @@
 
 <?php
 /**
-* Properietà PROGRESSBAR
+* Properietà EDITORPDF
 * @author	Alyx-Software Innovation <info@alyx.it>
 * @version	3.0.0_beta
 * @package	Develop
@@ -29,11 +29,20 @@ $propertyHELP["dir"]                   = "Direzione del testo:\n- LTR da sinistr
 $propertyHELP["template"]              = "Nome del template utilizzato dall'oggetto, se non specificato viene utilizzato quello di sistema.";
 $propertyHELP["title"]                 = "Informazioni aggiuntive visualizzate al passaggio del mouse sull'oggetto istanziato.";
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
-$propertyHELP["percent"]               = "Percetuale di avanzamento.";
-$propertyHELP["width"]                 = "Dimensione dell'oggetto.";
-$propertyHELP["label"]                 = "Etichetta dell'oggetto.";
-$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
-$propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto.";
 $propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
-$propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
+$propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto.";
+$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
+$propertyHELP["pageformat"]            = "Formato pagina|A4";
+$propertyHELP["orientation"]           = "Orientamento pagina|P,L";
+$propertyHELP["dsitemkey"]             = "Campo chiave.";
+$propertyHELP["dsitemobject"]          = "Campo tipo oggetto.";
+$propertyHELP["dsitemx"]               = "Campo coordinate X.";
+$propertyHELP["dsitemy"]               = "Campo coordinate Y.";
+$propertyHELP["dsitemwidth"]           = "Campo larghezza oggetto.";
+$propertyHELP["dsitemheight"]          = "Campo altezza oggetto.";
+$propertyHELP["dsitemtext"]            = "Campo testo dell'oggetto.";
+$propertyHELP["dsitemborder"]          = "Campo bordo dell'oggetto.";
+$propertyHELP["dsitemalign"]           = "Campo allineamento testo dell'oggetto";
+$propertyHELP["dsitemfont"]            = "Campo nome font.";
+$propertyHELP["dsitemfontsize"]        = "Campo dimensione font.";
 ?>

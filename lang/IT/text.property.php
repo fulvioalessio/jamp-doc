@@ -3,9 +3,9 @@
 /**
 * Properietà TEXT
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -57,6 +57,7 @@ $propertyHELP["label"]                 = "Etichetta dell'oggetto.";
 $propertyHELP["labelalign"]            = "Allineamento etichetta rispetto all'oggetto|left,right";
 $propertyHELP["labelwidth"]            = "Larghezza dell'etichetta.";
 $propertyHELP["labelstyle"]            = "Stile associato all'etichetta.";
+$propertyHELP["calendar"]              = "Abilita disabilita la visualizzazione del calendario prevista di default se la formattazione e' di tipo date|true,false.";
 $propertyHELP["csscalendar"]           = "Css usato per il calendario.";
 $propertyHELP["classcalendar"]         = "Classe css usata per il calendario.";
 $propertyHELP["format"]                = "Style di formattazione.";
@@ -73,23 +74,23 @@ $propertyHELP["savesearch"]            = "In modalità autocomplete consente di 
 $propertyHELP["forcename"]             = "Indica il nome che deve avere il file uplodato.";
 $propertyHELP["dimension"]             = "Dimensione dell'immagine da salvare, utilizzare la ',' per salvare più formati(es. 100x200,400x100) .";
 $propertyHELP["createdir"]             = "Se la directory di upload non esiste la crea.";
+$propertyHELP["backgroundcolor"]       = "Colore di sfondo.";
 $propertyHELP["width"]                 = "Larghezza dell'oggetto (con unità di misura es: 600px).";
 $propertyHELP["height"]                = "Altezza dell'oggetto (con unità di misura es: 600px).";
-$propertyHELP["calendar"]              = "Abilita disabilita la visualizzazione del calendario prevista di default se la formattazione e' di tipo date|true,false.";
 $propertyHELP["autocomplete"]          = "Attributo HTML5 per il tag input.";
-$propertyHELP["autofocus"]          	= "Attributo HTML5 per il tag input.";
-$propertyHELP["form"]          			= "Attributo HTML5 per il tag input.";
-$propertyHELP["formaction"]          	= "Attributo HTML5 per il tag input.";
-$propertyHELP["formenctype"]          	= "Attributo HTML5 per il tag input.";
-$propertyHELP["formmethod"]          	= "Attributo HTML5 per il tag input.";
+$propertyHELP["autofocus"]             = "Attributo HTML5 per il tag input.";
+$propertyHELP["form"]                  = "Attributo HTML5 per il tag input.";
+$propertyHELP["formaction"]            = "Attributo HTML5 per il tag input.";
+$propertyHELP["formenctype"]           = "Attributo HTML5 per il tag input.";
+$propertyHELP["formmethod"]            = "Attributo HTML5 per il tag input.";
 $propertyHELP["formnovalidate"]        = "Attributo HTML5 per il tag input.";
-$propertyHELP["formtarget"]          	= "Attributo HTML5 per il tag input.";
-$propertyHELP["list"]          			= "Attributo HTML5 per il tag input.";
-$propertyHELP["max"]         				= "Attributo HTML5 per il tag input.";
-$propertyHELP["min"]          			= "Attributo HTML5 per il tag input.";
-$propertyHELP["multiple"]          		= "Attributo HTML5 per il tag input.";
-$propertyHELP["pattern"]          		= "Attributo HTML5 per il tag input.";
-$propertyHELP["placeholder"]          	= "Attributo HTML5 per il tag input.";
-$propertyHELP["required"]          		= "Attributo HTML5 per il tag input.";
-$propertyHELP["step"]          			= "Attributo HTML5 per il tag input.";
+$propertyHELP["formtarget"]            = "Attributo HTML5 per il tag input.";
+$propertyHELP["list"]                  = "Attributo HTML5 per il tag input.";
+$propertyHELP["max"]                   = "Attributo HTML5 per il tag input.";
+$propertyHELP["min"]                   = "Attributo HTML5 per il tag input.";
+$propertyHELP["multiple"]              = "Attributo HTML5 per il tag input.";
+$propertyHELP["pattern"]               = "Attributo HTML5 per il tag input.";
+$propertyHELP["placeholder"]           = "Attributo HTML5 per il tag input.";
+$propertyHELP["required"]              = "Attributo HTML5 per il tag input.";
+$propertyHELP["step"]                  = "Attributo HTML5 per il tag input.";
 ?>

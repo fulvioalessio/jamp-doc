@@ -3,9 +3,9 @@
 /**
 * Properietà PAGE
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -49,13 +49,13 @@ $propertyHELP["keepaliveurl"]          = "Url della pagina da richiamare per ten
 $propertyHELP["java"]                  = "Nome dei file javascript usati dall'oggetto.";
 $propertyHELP["forwardrequest"]        = "Inoltra le variabili inviate tramite GET e POST anche al primo caricamento AJAX(loadAll).";
 $propertyHELP["cssfile"]               = "Nome del file css usato dall'oggetto.";
+$propertyHELP["pageformat"]            = "Formato della pagina PDF.|A3,A4,A5,Letter,Legal";
 $propertyHELP["orientation"]           = "Orientamento della pagina pdf.|L,P";
 $propertyHELP["pdfname"]               = "Nome del file pdf.";
 $propertyHELP["destination"]           = "Destinazione del file PDF,\n- I: manda il 'file inline' al browser. Il plug-in sarà utilizzato se presente. Il nome specificato con name sarà utilizzato quando l'utente selezionerà l'opzione 'Salva con nome' sul link generato sul PDF.\n- D: manda al browser e forza il download del file con il nome indicato dalla proprietà 'pdfname'.\n- F: salva il file in locale con il nome indicato dalla proprietà 'pdfname'.\n- S: ritorna il documento come stringa.|I,D,F,S";
-$propertyHELP["pageformat"]            = "Formato della pagina PDF.|A3,A4,A5,Letter,Legal";
+$propertyHELP["compressjs"]            = "Abilita/Disabilita la compressione del codice javascript utente|true,false";
 $propertyHELP["hideloader"]            = "Visualizza/Nasconde l'immagine di caricamento durante transazioni AJAX|true,false";
 $propertyHELP["hidehtmlerror"]         = "Abilita/Disabilita la visualizzazione degli errori html|true,false";
 $propertyHELP["hidejserror"]           = "Abilita/Disabilita la visualizzazione degli errori javascript|true,false";
 $propertyHELP["hidexmlerror"]          = "Abilita/Disabilita la visualizzazione degli errori xml generati dalle transazioni AJAX|true,false";
-$propertyHELP["compressjs"]          = "Abilita/Disabilita la compressione del codice javascript utente|true,false";
 ?>

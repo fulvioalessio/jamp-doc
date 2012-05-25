@@ -3,9 +3,9 @@
 /**
 * Properietà DSSELECT
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -39,10 +39,10 @@ $propertyHELP["onselect"]              = "Codice associato all'evento onselect."
 $propertyHELP["onblur"]                = "Codice associato all'evento onblur.";
 $propertyHELP["onchange"]              = "Codice associato all'evento onchange.";
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
+$propertyHELP["dsitemkeylist"]         = "Nome del campo chiave usato per popolare la select.";
 $propertyHELP["nav"]                   = "Consente di utilizzare la select come navigatore.\nSposta il record corrente dopo aver selezionato il valore.|true,false";
 $propertyHELP["memory"]                = "Usata invieme a nav per ridordare la posizione della select dopo il ripopolamento dei dati.|true,false";
 $propertyHELP["multiple"]              = "Consente la selezione multipla.|true,false";
-$propertyHELP["dsitemkeylist"]         = "Nome del campo chiave usato per popolare la select.";
 $propertyHELP["dsitemlist"]            = "Nome del campo usato per popolare la select.";
 $propertyHELP["dsobjlist"]             = "ID del datasource usato per popolare la select.";
 $propertyHELP["directory"]             = "Percoso delle immagini da visualizzare nella select.";
@@ -61,8 +61,10 @@ $propertyHELP["width"]                 = "Larghezza dell'oggetto (con unità di 
 $propertyHELP["height"]                = "Altezza dell'oggetto (con unità di misura es: 600px).";
 $propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
 $propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
+$propertyHELP["objtype"]               = "Nome dell'oggetto da inserire.";
 $propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
 $propertyHELP["disabled"]              = "Disabilita l'oggetto|true,false";
 $propertyHELP["format"]                = "Style di formattazione.";
 $propertyHELP["indexselected"]         = "Specifica la riga da visualizzare come selezionata, da usare se connesso a datasource.";
+$propertyHELP["dsitemselected"]        = "Nome del campo che contiene il valore 0/1 della selezione predefinita. In questo modo quando si effettuerà un inserimento la select selezionarà il valore predefinito.";
 ?>

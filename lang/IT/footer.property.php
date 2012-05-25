@@ -3,9 +3,9 @@
 /**
 * Properietà FOOTER
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -29,6 +29,6 @@ $propertyHELP["dir"]                   = "Direzione del testo:\n- LTR da sinistr
 $propertyHELP["template"]              = "Nome del template utilizzato dall'oggetto, se non specificato viene utilizzato quello di sistema.";
 $propertyHELP["title"]                 = "Informazioni aggiuntive visualizzate al passaggio del mouse sull'oggetto istanziato.";
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
+$propertyHELP["top"]                   = "Posizione testo rispetto al footer.";
 $propertyHELP["value"]                 = "Testo o html da inserire all'interno del tag.";
-$propertyHELP["top"]	                  = "Posizione testo rispetto al footer.";
 ?>

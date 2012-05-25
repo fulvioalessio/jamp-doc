@@ -3,9 +3,9 @@
 /**
 * Properietà MAP
 * @author	Alyx-Software Innovation <info@alyx.it>
-* @version	0.4.0
+* @version	3.0.0_beta
 * @package	Develop
-* @copyright Alyx-Software Innovation 2008
+* @copyright Alyx-Software Innovation 2012
 * @license GNU Public License
 * JAMP sorgenti e documentazione li trovi nel sito ufficiale http://jamp.alyx.it/
 */
@@ -36,13 +36,13 @@ $propertyHELP["lng"]                   = "longitudine del centro mappa";
 $propertyHELP["zoom"]                  = "livello di zoom";
 $propertyHELP["traffic"]               = "true visualizza il traffico";
 $propertyHELP["display"]               = "ID dell'oggetto che visualizza/nasconde la mappa.\nEs. \"display\"=\"tabs1\"\nL'init della mappa avverà solamente alla chiamata della funzione tabs1Display().\n Per un corretto funzionamento della mappa l'inizializzazione deve avvenire quando la mappa non è nascosta dal css. Non è necessario impostare questo valore poichè viene ereditato automaticamente in base all'oggetto in cui si trova la mappa.";
-$propertyHELP["route"]                 = "id del frame sul quale visualizzare il percorso";
-$propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
-$propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
-$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
 $propertyHELP["marker"]                = "Aggiunge un marker in corrispondenza del centro della mappa|true,false.";
 $propertyHELP["html"]                  = "Codice html da associare al marker centro mappa.";
 $propertyHELP["icon"]                  = "Link icona da associare al marker centro mappa.";
 $propertyHELP["draggable"]             = "Abilita/Disabilita il trascinamento del marker centro mappa|true,false.";
 $propertyHELP["dsmarker"]              = "Aggiunge i marker ogni riga restituita dal datasource|true,false";
+$propertyHELP["route"]                 = "id del frame sul quale visualizzare il percorso";
+$propertyHELP["dsobj"]                 = "ID dell'oggetto datasource associato.";
+$propertyHELP["dsitem"]                = "Nome del campo datasource associato.";
+$propertyHELP["java"]                  = "Nome del/dei file javascript usati dall'oggetto.";
 ?>
