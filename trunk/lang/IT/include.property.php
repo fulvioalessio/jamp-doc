@@ -13,5 +13,5 @@
 $propertyHELP = Array();
 $propertyHELP["id"]                    = "Nome univoco dell'oggetto.";
 $propertyHELP["src"]                   = "Directory del file di testo da includere(es. file html, file txt)";
-$propertyHELP["render"]                = "Eseguzione del codice.|file,";
+$propertyHELP["render"]                = "Eseguzione del codice.|file";
 ?>
