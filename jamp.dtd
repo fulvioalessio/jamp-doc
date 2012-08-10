@@ -1075,7 +1075,7 @@ dsobj CDATA #IMPLIED
 <!ATTLIST include
 id CDATA #REQUIRED
 src CDATA #IMPLIED
-render (file|) #IMPLIED
+render (file) #IMPLIED
 >
 <!ELEMENT jmenu (#PCDATA)>
 <!ATTLIST jmenu
