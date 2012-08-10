@@ -58,4 +58,5 @@ $propertyHELP["hideloader"]            = "Visualizza/Nasconde l'immagine di cari
 $propertyHELP["hidehtmlerror"]         = "Abilita/Disabilita la visualizzazione degli errori html|true,false";
 $propertyHELP["hidejserror"]           = "Abilita/Disabilita la visualizzazione degli errori javascript|true,false";
 $propertyHELP["hidexmlerror"]          = "Abilita/Disabilita la visualizzazione degli errori xml generati dalle transazioni AJAX|true,false";
+$propertyHELP["ajax"]                  = "Abilita/Disabila AJAX";
 ?>
